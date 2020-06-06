@@ -4,7 +4,8 @@ import {
   View, 
   Image,
   Text,
-  ImageBackground 
+  ImageBackground,
+  Alert 
 } from 'react-native';
 import { RectButton } from 'react-native-gesture-handler';
 import { Feather as Icon } from '@expo/vector-icons';
@@ -52,6 +53,12 @@ const Home = () => {
   }, [selectedUf]);
 
   function handleNavigateToPoints() {
+    
+    if (selectedUf === '0' && selectedCity === '0') {
+      Alert.alert('Alerta', 'Selecione a UF e a cidade');
+      return;
+    }
+
     navigation.navigate('Points', {
       uf: selectedUf,
       city: selectedCity
