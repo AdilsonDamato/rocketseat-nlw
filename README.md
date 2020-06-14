@@ -1,6 +1,10 @@
-# Ecoleta
+<p align="center">
+  <img src="https://github.com/pereiradilson/rocketseat-nlw/blob/master/front-end/src/assets/logo.svg" height="44" width="182" alt="Ecoleta - Ecoleta is a waste collection system made in NodeJS, ReactJS and React Native." />
+</p>
 
-Ecoleta is a waste collection system made in NodeJS, ReactJS and React Native.
+<h3 align="center">
+  Ecoleta is a waste collection system made in NodeJS, ReactJS and React Native.
+</h3>
 
 The database used was SQLite.
 
